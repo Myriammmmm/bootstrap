@@ -53,7 +53,7 @@
 
           <div class="d-flex justify-content-center align-items-center">
 
-           <div class="text-white text-center">
+           <div class="text-light text-center">
 
               <h1 class="display-1">Main heading for page</h1>
               <p class="lead">Some lead text or subtitle</p>
@@ -70,39 +70,40 @@
         <div class="container">
 
           <h2 class="mb4">Section heading</h2>
-          <!-- Using the grid system, adjust the following so that the text is 100% until the large breakpoint when it will then span 10 columns -->
           <div class="row">
+
             <div class="col-lg-10">
               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam exercitationem voluptates dolore necessitatibus eius? Deserunt excepturi pariatur assumenda nemo laudantium fugit aliquid mollitia? Reiciendis consequuntur distinctio aperiam magni magnam asperiores.</p>
             </div>
+
           </div>
+
         </div>
       </section>
 
-      <!-- Add padding to the top and bottom of the section -->
-      <!-- Set section background color to use the dark theme with light text -->
-      <section id="two-column-section py-5">
-        <!-- Use a container class that will set a max-width at each breakpoint -->
+
+      <section id="two-column-section" class="py-5 bg-dark text-light">
+
         <div class="container">
-          <!-- Adjust all h2 headings to have a margin bottom using the value 4 -->
+
           <h2 class="mb-4">Section heading</h2>
-          <!-- Using the grid system, adjust the following so that the text in both divs are 100% until the small breakpoint where it then divides into 2 evenly distributed columns and stays that way as the screen expands -->
-          <div>
-            <div>
+
+          <div class="row">
+            <div class="col-sm">
               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam exercitationem voluptates dolore necessitatibus eius? Deserunt excepturi pariatur assumenda nemo laudantium fugit aliquid mollitia? Reiciendis consequuntur distinctio aperiam magni magnam asperiores.</p>
             </div>
-            <div>
+            <div class="col-sm">
               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam exercitationem voluptates dolore necessitatibus eius? Deserunt excepturi pariatur assumenda nemo laudantium fugit aliquid mollitia? Reiciendis consequuntur distinctio aperiam magni magnam asperiores.</p>
             </div>
           </div>
         </div>
       </section>
 
-      <!-- Add padding to the top and bottom of the section -->
-      <section id="cards py-5">
-        <!-- Use a container class that will set a max-width at each breakpoint -->
+
+      <section id="cards" class="py-5">
+
         <div class="container">
-          <!-- Adjust all h2 headings to have a margin bottom using the value 4 -->
+
           <h2 class="mb-4">Section heading</h2>
 
           <!-- Using the grid system, adjust the following so that the cards are 100% until the small breakpoint where it then divides to use 6 columns each, then again at the large breakpoint each card will span 3 columns each -->
@@ -115,16 +116,57 @@
 
             </div>
 
-            <div>
-              <!-- Card goes here -->
+              <div class="row">
+
+                <div class="col-sm-6 col-lg-3">
+                  <div class="card">
+                    <img src="..." class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Card title</h5>
+                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                      <a href="#" class="btn btn-primary">Go somewhere</a>
+                    </div>
+                  </div>
+               </div>
+
+
+                <div class="col-sm-6 col-lg-3">
+                  <div class="card">
+                    <img src="..." class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Card title</h5>
+                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                      <a href="#" class="btn btn-primary">Go somewhere</a>
+                    </div>
+                  </div>
+                </div>
+                
+
+                <div class="col-sm-6 col-lg-3">
+                  <div class="card">
+                    <img src="..." class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Card title</h5>
+                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                      <a href="#" class="btn btn-primary">Go somewhere</a>
+                    </div>
+                  </div>
+                </div>
+              
+              
+                <div class="col-sm-6 col-lg-3">
+                  <div class="card">
+                    <img src="..." class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Card title</h5>
+                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                      <a href="#" class="btn btn-primary">Go somewhere</a>
+                    </div>
+                  </div>
+                </div>
+           
             </div>
 
-            <div>
-              <!-- Card goes here -->
-            </div>
-
-            <div>
-              <!-- Card goes here -->
             </div>
           </div>
         </div>
